@@ -1,0 +1,12 @@
+[INFO  - 2019-08-21T09:57:25.009Z] GhostDriver - Main - running on port 53761
+[INFO  - 2019-08-21T09:57:27.672Z] Session [15369610-c3fa-11e9-8ff8-f519fc0c851e] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-08-21T09:57:27.672Z] Session [15369610-c3fa-11e9-8ff8-f519fc0c851e] - page.customHeaders:  - {}
+[INFO  - 2019-08-21T09:57:27.672Z] Session [15369610-c3fa-11e9-8ff8-f519fc0c851e] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-08-21T09:57:27.672Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 15369610-c3fa-11e9-8ff8-f519fc0c851e
+[ERROR - 2019-08-21T09:57:29.080Z] Session [15369610-c3fa-11e9-8ff8-f519fc0c851e] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'readerinfo')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-08-21T09:57:29.080Z] Session [15369610-c3fa-11e9-8ff8-f519fc0c851e] - page.onError - stack:
+  global code (http://d1.weather.com.cn/satellite/JC_YT_DL_WXZXCSYT_4A.html?callback=readerinfo&_=1566381448688:1)
+
+  phantomjs://platform/console++.js:263 in error
